@@ -44,3 +44,7 @@ for i in range(N):
 
 print("Lista nr 1 este: ",Lista_1) # output Lista nr 1 este:  [5, 6, 9, 1, 2, 352, 15, 15, 7, 9]
 print("Lista nr 2 este: ", Lista_2)# output Lista nr 2 este:  [5, 6, 9, 1, 2, 352, 15, 15, 7, 9]
+
+# sau putem sa copiem listele prin urmatorul mod
+Lista_3 = list(Lista_1)
+print("Lista nr 3 este: ",Lista_3) # output Lista nr 3 este:  [12, 45, 78, 96, 32]
